@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .home__title
+    {
+        @apply text-greenColor  text-3xl  font-bold uppercase ;
+    }
+
+    .section__title {
+        @apply text-3xl;
+    }
+    /* override one property in card title */
+    .card__title {
+        @apply text-xl;
+    }
+
+    .separator {
+        @apply w-28 h-[2px] bg-secondaryColor my-5;
+    }
+
+    .paragraph {
+        @apply text-paragraphColor text-xs leading-5;
+    }
+    .img-section {
+        @apply  w-[300px] h-[350px] rounded-lg mb-10 ml-20 bg-cover;
+
+    }
+    
+
+}
+
+.nav ul li  {
+    @apply text-greenColor;
+}
+.brand{
+    @apply font-bold text-3xl text-greenColor ;
+}
