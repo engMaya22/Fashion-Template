@@ -9,7 +9,7 @@
     }
 
     .section__title {
-        @apply text-3xl;
+        @apply text-3xl text-greenColor font-bold ;
     }
     /* override one property in card title */
     .card__title {
@@ -17,12 +17,16 @@
     }
 
     .separator {
-        @apply w-28 h-[2px] bg-secondaryColor my-5;
+        @apply border rounded-r-md border-gray-400  h-4;
     }
 
-    .paragraph {
-        @apply text-paragraphColor text-xs leading-5;
+    .paragraph , .subTitle {
+        @apply text-paragraphColor text-xl  leading-5;
     }
+    .subTitle {
+        @apply text-greenColor;
+    }
+
     .img-section {
         @apply  w-[300px] h-[350px] rounded-lg mb-10 ml-20 bg-cover;
 
