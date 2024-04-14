@@ -41,3 +41,6 @@
 .brand{
     @apply font-bold text-3xl text-greenColor ;
 }
+#products ul li {
+    @apply text-liColor
+}

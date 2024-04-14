@@ -13,6 +13,7 @@ module.exports = {
         greenColor: "#224F34",
         paragraphColor : '#267D49',
         imageColor : '#6BC785',
+        liColor: '#454545',
 
         
 

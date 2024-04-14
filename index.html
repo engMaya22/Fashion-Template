@@ -1,137 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fashion</title>
     <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body class="">
 
-<header>
-    <nav >
-        <div class="flex flex-row justify-between p-6 bg-greenLigthColor">
-            <div class="brand">
-                Rivo
-            </div>
-            <div class="nav">
-                <ul class="flex flex-row space-x-6">
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">SHOP</a></li>
-                    <li><a href="">FEATURE</a></li>
-                    <li><a href="">CONTACT</a></li>
-    
-                </ul>
-            </div>
-            <div class="border px-6 py-1 border-greenColor">
-                Login
-            </div>
-        </div>
-        
-    </nav>
+    <header>
+        <nav>
+            <div class="flex flex-row justify-between p-6 bg-greenLigthColor">
+                <div class="brand">
+                    Rivo
+                </div>
+                <div class="nav">
+                    <ul class="hidden md:flex flex-row space-x-6">
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">SHOP</a></li>
+                        <li><a href="">FEATURE</a></li>
+                        <li><a href="">CONTACT</a></li>
 
-</header>
-<main>
-  <section id="home" class="bg-greenLigthColor">
-    <div class="flex flex-row container pt-20 ">
-        
-        <div class="space-y-10 mr-80  ml-20 border w-[300px] h-[350px] p-6 ">
-             <div class="">
-                <h2 class="home__title">
-                    Discover and Find Your Own Fashion!
-                </h2>
-             </div>
-             <div>
-                <p class="paragraph__title paragraph">
-                    Explore our curated collection of stylish clothing and accessories tailored to your unique taste.
-                </p>
-             </div>
-            <div class="">
-                <a href="" class="btn bg-greenColor text-white px-6 py-2 shadow-lg ">
-                    Explore Now
-                 </a>
+                    </ul>
+                </div>
+                <div class="border px-6 py-1 border-greenColor">
+                    Login
+                </div>
             </div>
 
-        </div>
-       <!-- Image -->
-        <div class=" img-section relative" style="background-image: url('./img/home.png')" >
-            
-             <img src="./img/points.png" alt="" class="absolute right-0 top-16">
-        
-             <img src="./img/points.png" alt="" class="absolute left-0  bottom-4">
+        </nav>
 
-        </div>
+    </header>
+    <main>
+        <section id="home" class="bg-greenLigthColor">
+            <div class="flex md:flex-row flex-col container pt-20 ">
 
-    </div>
-  </section>
-  <!-- Best selling -->
-  <section>
-     <div class="conatiner flex flex-col pt-16">
-        <div class="mx-auto text-center " >
-            <h2 class="section__title ">Best selling</h2>
-            <p class="subTitle pt-8" >Get in on the trend with our curated selection of best-selling styles.</p>
+                <div class="space-y-10 mr-80  ml-20 border w-[300px] h-[350px] p-6 ">
+                    <div class="">
+                        <h2 class="home__title">
+                            Discover and Find Your Own Fashion!
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="paragraph__title paragraph">
+                            Explore our curated collection of stylish clothing and accessories tailored to your unique
+                            taste.
+                        </p>
+                    </div>
+                    <div class="">
+                        <a href="" class="btn bg-greenColor text-white px-6 py-2 shadow-lg ">
+                            Explore Now
+                        </a>
+                    </div>
 
-        </div>
-        <div class="flex flex-row mt-6 justify-center">
-            <div class="w-[400px] h-[566px]  container text-center">
-                <img src="./img/girl1.png" alt="" class="object-cover">
-                <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
-                <div class="flex gap-3  items-center justify-center">
-                    
-                     <span>$38.99</span>
-                    <div class="separator"></div>
-                    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                    </svg>
+                </div>
+                <!-- Image -->
+                <div class=" img-section relative" style="background-image: url('./img/home.png')">
+
+                    <img src="./img/points.png" alt="" class="absolute right-0 top-16">
+
+                    <img src="./img/points.png" alt="" class="absolute left-0  bottom-4">
+
                 </div>
 
-
             </div>
+        </section>
+        <!-- Best selling -->
+        <section>
+            <div class="conatiner flex flex-col pt-16">
+                <div class="mx-auto text-center">
+                    <h2 class="section__title ">Best selling</h2>
+                    <p class="subTitle pt-8">Get in on the trend with our curated selection of best-selling styles.</p>
 
-            <div class="w-[400px] h-[566px]  container text-center">
-                <img src="./img/girl2.png" alt="" class="object-cover">
-                <h3 class="pt-6">Regular Fit Long Sleeve Top</h3>
-                <div class="flex gap-2  items-center justify-center">
-                    
-                     <span>$38.99</span>
-                    <div class="separator"></div>
-                    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                </div>
+                <div class="flex md:flex-row flex-col mt-6 justify-center">
+                    <div class="w-[400px] h-[566px]  container text-center ">
+                        <img src="./img/girl1.png" alt="" class="object-cover">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+
+                    </div>
+
+                    <div class="w-[400px] h-[566px]  container text-center">
+                        <img src="./img/girl2.png" alt="" class="object-cover">
+                        <h3 class="pt-6">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-2  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+
+
+                    </div>
+                    <div class="w-[400px] h-[566px]  container text-center">
+                        <img src="./img/girl3.png" alt="" class="object-cover">
+                        <h3 class="pt-6">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-2  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class=" border border-greenColor px-12 py-2 mx-auto flex items-center gap-1">
+                    <a href="" class="text-center "> See all
+
+                    </a>
+                    <svg width="22" height="12" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M23.7071 8.70711C24.0976 8.31658 24.0976 7.68342 23.7071 7.29289L17.3431 0.928932C16.9526 0.538408 16.3195 0.538408 15.9289 0.928932C15.5384 1.31946 15.5384 1.95262 15.9289 2.34315L21.5858 8L15.9289 13.6569C15.5384 14.0474 15.5384 14.6805 15.9289 15.0711C16.3195 15.4616 16.9526 15.4616 17.3431 15.0711L23.7071 8.70711ZM0 9L23 9V7L0 7L0 9Z"
+                            fill="#224F34" />
                     </svg>
                 </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container mx-auto space-y-16 pt-16">
+                <div class="text-center ">
+                    <h2 class="section__title">Our products</h2>
+                    <ul class="flex flex-row gap-6 justify-center pt-8 ">
+                        <li> <a href="">SALE</a></li>
+                        <li> <a href="">HOT</a></li>
+                        <li> <a href="">New Arrivals</a></li>
+                        <li> <a href="">Accessories</a></li>
+                    </ul>
+                </div>
+                <!-- grid of products -->
+                <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-4">
+
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="w-[285px] h-[378px]  container text-center">
+                        <img src="./img/prod1.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
 
 
-            </div>  <div class="w-[400px] h-[566px]  container text-center">
-                <img src="./img/girl3.png" alt="" class="object-cover">
-                <h3 class="pt-6">Regular Fit Long Sleeve Top</h3>
-                <div class="flex gap-2  items-center justify-center">
-                    
-                     <span>$38.99</span>
-                    <div class="separator"></div>
-                    <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
-                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
-                    </svg>
                 </div>
 
-
             </div>
+        </section>
+    </main>
+    <footer>
 
-        </div>
-        <div class=" border border-greenColor px-12 py-2 mx-auto flex items-center gap-1">
-            <a href="" class="text-center "> See all 
-              
-            </a>
-            <svg width="22" height="12" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23.7071 8.70711C24.0976 8.31658 24.0976 7.68342 23.7071 7.29289L17.3431 0.928932C16.9526 0.538408 16.3195 0.538408 15.9289 0.928932C15.5384 1.31946 15.5384 1.95262 15.9289 2.34315L21.5858 8L15.9289 13.6569C15.5384 14.0474 15.5384 14.6805 15.9289 15.0711C16.3195 15.4616 16.9526 15.4616 17.3431 15.0711L23.7071 8.70711ZM0 9L23 9V7L0 7L0 9Z" fill="#224F34"/>
-            </svg>
-        </div>
-     </div>
-  </section>
-</main>
-<footer>
+    </footer>
 
-</footer>
 
-    
 </body>
+
 </html>
