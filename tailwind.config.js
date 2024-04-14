@@ -14,6 +14,7 @@ module.exports = {
         paragraphColor : '#267D49',
         imageColor : '#6BC785',
         liColor: '#454545',
+        submitColor :'#A3F3BE',
 
         
 

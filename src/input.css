@@ -38,9 +38,17 @@
 .nav ul li  {
     @apply text-greenColor;
 }
-.brand{
+.brand , .footerBrand{
     @apply font-bold text-3xl text-greenColor ;
+}
+.footerBrand{
+    @apply  text-white ;
 }
 #products ul li {
     @apply text-liColor
+}
+.social i {
+    @apply text-2xl mx-1
+
+    
 }
