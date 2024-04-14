@@ -21,7 +21,7 @@
     }
 
     .paragraph , .subTitle {
-        @apply text-paragraphColor text-xl  leading-5;
+        @apply text-paragraphColor text-xl  leading-6;
     }
     .subTitle {
         @apply text-greenColor;
