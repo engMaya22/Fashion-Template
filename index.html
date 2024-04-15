@@ -21,7 +21,7 @@
         <nav>
             <div class="flex flex-row justify-between p-6 bg-greenLigthColor relative">
                 <div class="brand">
-                    Rivo
+                    MESHOKO
                 </div>
                 <div class="nav">
                     <ul class="hidden md:flex flex-row space-x-6">
@@ -166,21 +166,22 @@
 
         <section id="products">
             <div class="container mx-auto space-y-16 pt-16">
-                <div class="text-center  ">
+                <div class="text-center tabs_wrap ">
                     <h2 class="section__title">Our products</h2>
                     <ul class="flex flex-row gap-6 justify-center pt-8  ">
-                        <li> <a href="">New Arrivals</a></li>
-                        <li> <a href="">HAT</a></li>
-                        <li> <a href="">CLOTHS</a></li>
-                        <li> <a href="">SHOES</a></li>
-                        <li class=""> <a href="">SALE</a></li>
+                        <li data-tabs="all " class="active"> ALL</li>
+                        <li data-tabs="hat">HATS</li>
+                        <li data-tabs="cloth"> CLOTHS</li>
+                        <li data-tabs="shoe"> SHOES</li>
+                        <li data-tabs="new-arrival"> New Arrivals</li>
+                        <li data-tabs=""> SALE</li>
 
                     </ul>
                 </div>
                 <!-- grid of products -->
                 <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-4">
 
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod9.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -195,7 +196,7 @@
                         </div>
                     </div>
 
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod8.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -209,7 +210,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod2.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -223,7 +224,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class="item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod7.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -237,7 +238,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class="item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod3.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -251,7 +252,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap  cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod4.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -265,7 +266,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod5.png" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
@@ -279,8 +280,123 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="w-[285px] h-[400px]  container text-center">
+                    <div class=" item_wrap cloth w-[285px] h-[400px]  container text-center">
                         <img src="./img/prod6.png" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class=" item_wrap hat w-[285px] h-[400px]  container text-center">
+                        <img src="./img/hat1.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class=" item_wrap hat w-[285px] h-[400px]  container text-center">
+                        <img src="./img/hat2.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class=" item_wrap hat w-[285px] h-[400px]  container text-center">
+                        <img src="./img/hat3.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class=" item_wrap hat w-[285px] h-[400px]  container text-center">
+                        <img src="./img/hat4.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="item_wrap shoe w-[285px] h-[400px]  container text-center">
+                        <img src="./img/shoe1.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="item_wrap shoe w-[285px] h-[400px]  container text-center">
+                        <img src="./img/shoe2.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>   
+                    <div class="item_wrap shoe w-[285px] h-[400px]  container text-center">
+                        <img src="./img/shoe3.jpg" alt="" class="object-cover  rounded-md border">
+                        <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
+                        <div class="flex gap-3  items-center justify-center">
+
+                            <span>$38.99</span>
+                            <div class="separator"></div>
+                            <svg class="w-4 h-4 text-yellow-300 ms-1" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                                <path
+                                    d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z" />
+                            </svg>
+                        </div>
+                    </div>  
+                    <div class="item_wrap shoe w-[285px] h-[400px]  container text-center">
+                        <img src="./img/shoe4.jpg" alt="" class="object-cover  rounded-md border">
                         <h3 class="pt-6 ">Regular Fit Long Sleeve Top</h3>
                         <div class="flex gap-3  items-center justify-center">
 
@@ -437,7 +553,7 @@
         <div class=" container mx-auto md:flex md:justify-between grid grid-cols-2 space-y-4 pt-6 px-10  mt-16 p-4 pb-44 text-white " >
             <div class="space-y-2">
                 <div class=" footerBrand">
-                    Rivo
+                    MESHOKO
                 </div>
                 <h4 class="font-bold">Social Media</h4>
                  <div class="social ">
